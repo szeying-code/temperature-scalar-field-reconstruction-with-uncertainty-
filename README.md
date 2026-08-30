@@ -1,34 +1,16 @@
-# Scalar Field Reconstruction Code
+# Dissertation LaTeX Source
 
-This repository contains the final code used for the dissertation experiments on spherical harmonic scalar-field reconstruction and adaptive geodesic conformal uncertainty quantification.
+This repository contains the minimal LaTeX source needed to recreate the dissertation PDF.
 
 ## Files
 
-- `scalar_field_reconstruction.py`: main training, reconstruction, conformal prediction, robustness, and plotting workflow.
-- `check.py`: supporting check script for selected city/data diagnostics.
-- `requirements.txt`: Python packages required to run the scripts.
+- `main.tex`: main dissertation LaTeX file.
+- `dissertation_overleaf_SY_rewrite.pdf`: final compiled PDF reference copy.
+- `uon_logo.png`: logo asset used by the title page.
+- `figures/`: figures produced by the code and referenced by `main.tex`.
 
-## Data
+## Building
 
-The raw temperature dataset is not included because it is large. Place the dataset in the repository root with this exact name:
+Upload this folder to Overleaf or compile `main.tex` locally with a LaTeX distribution.
 
-```text
-GlobalLandTemperaturesByCity.csv
-```
-
-## Running
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the main script:
-
-```bash
-python scalar_field_reconstruction.py
-```
-
-The script writes generated models and figures to `models/` and `plots/`.
-
+The code used to generate the figures is kept in a separate code repository. The PDF is included as a reference copy of the final compiled version; `main.tex` and `figures/` are the files needed to recreate it.

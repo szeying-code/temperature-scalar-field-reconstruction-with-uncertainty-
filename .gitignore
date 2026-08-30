@@ -1,12 +1,15 @@
-__pycache__/
-*.py[cod]
-.ipynb_checkpoints/
-
-GlobalLandTemperaturesByCity.csv
-models/
-plots/
-*.pkl
-*.zip
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
 
 .DS_Store
 Thumbs.db
